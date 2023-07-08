@@ -1,3 +1,24 @@
+# how to swap two variables
+
+variable_one = "Blue Color"
+variable_two = "Green Color"
+
+# approach one
+temp_var = variable_two  # green color
+variable_two = variable_one  # blue color
+variable_one = temp_var   # green color
+
+print("blue color to : ", variable_one)
+print("green color to : ", variable_two)
+
+# approach 2
+
+variable_one , variable_two = variable_two, variable_one
+
+print(variable_one)
+print(variable_two)
+
+
 # how to check given number is prime number or not ?
 
 
